@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PRS111111_Z1</string>
+
+    <string name="addNewItemBtnText">DODAJ NOVU STAVKU</string>
+    <string name="insertNameText">UNESI OPIS STAVKE</string>
+    <string name="radioFood">hrana</string>
+    <string name="radioDrink">piće</string>
+    <string name="radioCloth">garderoba</string>
+    <string name="radioOther">ostalo</string>
+    <string name="saveItemBtnText">DODAJ</string>
+
+</resources>
