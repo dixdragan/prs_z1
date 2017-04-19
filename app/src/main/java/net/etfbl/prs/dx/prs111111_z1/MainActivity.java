@@ -34,7 +34,7 @@ import android.widget.TextView;
  */
 public class MainActivity extends AppCompatActivity {
 
-    String LEFTITEMSTXT = "Preostalih stavki: ";
+    String LEFTITEMSTXT;
 
     public static int REQUEST_CODE = 8;
 
@@ -46,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        LEFTITEMSTXT = getString(R.string.LeftItemsText);;
 
         adapter = new StuffAdapter(this);
         list = (ListView) findViewById(R.id.list);

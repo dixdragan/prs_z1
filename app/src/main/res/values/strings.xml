@@ -8,5 +8,6 @@
     <string name="radioCloth">garderoba</string>
     <string name="radioOther">ostalo</string>
     <string name="saveItemBtnText">DODAJ</string>
+    <string name="LeftItemsText">Preostalih stavki: </string>
 
 </resources>
